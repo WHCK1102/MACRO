@@ -1,0 +1,18 @@
+{
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "per_device_eval_batch_size": 1,
+    "learning_rate": 1e-4,
+    "output_dir": "/home/yz/here/code/chatglm/data/yz-r100/moocdata13/chatGLM_6B",
+    "num_train_epochs": 1.0,
+    "lr_scheduler_type": "linear",
+    "warmup_ratio": 0.1,
+    "logging_steps": 250,
+    "save_strategy": "epoch",
+    "evaluation_strategy": "no",
+    "optim": "adamw_torch",
+    "fp16": true,
+    "remove_unused_columns": true,
+    "ddp_find_unused_parameters": false,
+    "seed": 42
+}
