@@ -1,7 +1,7 @@
 # MACRO:A Multi-Source Augmentation Strategy for Course Recommendation
 ## 数据集介绍
 
-数据集使用MOOC数据集，任务为根据input生成用户最有可能交互的课程问题，见本项目data文件夹，每条样本为一行，形式为：
+数据集使用MOOC系列数据集，任务为根据input生成用户最有可能交互的课程问题，见本项目data文件夹，每条样本为一行，形式为：
 
 ```json
 {
