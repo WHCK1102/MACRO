@@ -10,7 +10,7 @@ The dataset used is from the MOOC series dataset. The task is to generate the co
 ```
 
 ## Prompt & Completion Example
-#LLM-based Course Attributes Augmentation
+LLM-based Course Attributes Augmentation
 Prompt1
 
 You are a senior university course planner, skilled in recommending the next course of interest to students based on their course history and learning sequence. Given the user's interacted course {History Course}, select the most likely course from the remaining {Candidate Courses 1}. The output format should be {History Course, $c^{+}$}.
