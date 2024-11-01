@@ -10,17 +10,17 @@ The dataset used is from the MOOC series dataset. The task is to generate the co
 ```
 
 ## Prompt
-##LLM-based Course Attributes Augmentation
+# LLM-based Course Attributes Augmentation
 
 Prompt1
 
-You are a senior university course planner, skilled in recommending the next course of interest to students based on their course history and learning sequence. Given the user's interacted course {History Course}, select the most likely course from the remaining {Candidate Courses 1}. The output format should be {History Course, $c^{+}$}.
+[You are a senior university course planner, skilled in recommending the next course of interest to students based on their course history and learning sequence. Given the user's interacted course {History Course}, select the most likely course from the remaining {Candidate Courses 1}. The output format should be {History Course, $c^{+}$}.]
 
 Prompt2
 
 You are a senior university course planner. Based on the user's historical interaction records ({History Course}), analyze and predict the next courses they might be interested in ($$c^{+}$$), selecting from courses in the same category ({Candidate Courses 2})  those previously interacted with. The output format should be {History Course, \(c^{+}\)}.
 
-##LLM-based User Profile Augmentation
+# LLM-based User Profile Augmentation
 
 Prompt1
 
