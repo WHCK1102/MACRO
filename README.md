@@ -1,8 +1,7 @@
 # MACRO:A Multi-Source Augmentation Strategy for Course Recommendation
-## 数据集介绍
+## Dataset
 
-数据集使用MOOC系列数据集，任务为根据input生成用户最有可能交互的课程问题，见本项目data文件夹，每条样本为一行，形式为：
-
+The dataset used is from the MOOC series dataset. The task is to generate the course question that the user is most likely to interact with based on the input. See the "data" folder of this project, where each sample is a line in the following format:
 ```json
 {
         "input": "用户A曾经交互过操作系统，大数据系统基础等课程，请你从剩下的电工技术，PLC应用技术，程序设计基础，汇编语言程序设计，微机原理与接口技术，20世纪西方音乐，Web开发技术，公共危机管理，流计算、内存计算与分布式机器学习平台（微慕课），化工单元过程与操作，应对气候变化的中国视角，思想道德修养和法律基础，国际金融，现代管理学，无处不在传染病，生活英语听说，自动控制元件，概率论与数理统计，微积分B(2)，2017年清华大学研究生学位论文答辩（一），计算思维导论，美国政治概论等课程中选出用户A最有可能交互的一些课程，最多20个",
