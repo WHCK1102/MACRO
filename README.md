@@ -9,7 +9,7 @@ The dataset used is from the MOOC series dataset. The task is to generate the co
 },
 ```
 
-## Prompt & Completion Example
+## Prompt
 LLM-based Course Attributes Augmentation
 Prompt1
 
@@ -27,8 +27,6 @@ LLM-based User Profile Augmentation
 Prompt1
 
 You are a senior university course planner, please predict the course \{$c^{+}$\} that the user may be interested in next, based on the user's  historical interaction records \{History Course\}, and the candidate courses \{Candidate Courses 3\} that neighboring users have interacted with. The output format should be \{History Course, $c^{+}$\}.
-Completion
 
-Ron Underwood, USA, English
 Prompt2
 You are a senior university course planner, please predict the course \{$c^{+}$\} that the user may be interested in next, based on the user's  historical interaction records \{History Course\},and the candidate courses \{Candidate Courses 4\} that similar users have interacted with. The output format should be \{History Course, $c^{+}$\}
