@@ -8,6 +8,10 @@ The dataset used is from the MOOC series dataset. The task is to generate the co
         "output": "程序设计基础，汇编语言程序设计"
 },
 ```
+## Image
+
+The specific process is as follows:
+![Uploading MACRO.png…]()
 
 ## Prompt
 ### LLM-based Course Attributes Augmentation
