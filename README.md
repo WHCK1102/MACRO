@@ -11,7 +11,7 @@ The dataset used is from the MOOC series dataset. The task is to generate the co
 ## Image
 
 The specific process is as follows:
-![MACRO](MACRO/images/MACRO.jpg)
+![MACRO]([MACRO/images/MACRO.jpg](https://github.com/WHCK1102/MACRO/blob/main/images/MACRO.png))
 ## Prompt
 ### LLM-based Course Attributes Augmentation
 
