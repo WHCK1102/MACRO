@@ -1,4 +1,4 @@
-# MACRO:A Multi-Source Augmentation Strategy for Course Recommendation
+# DRG: A Dual Relational Graph Framework for Course Recommendation
 ## Dataset
 
 The dataset used is from the MOOC series dataset. The task is to generate the course question that the user is most likely to interact with based on the input. See the "data" folder of this project, where each sample is a line in the following format:
